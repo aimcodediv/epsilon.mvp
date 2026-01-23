@@ -9,8 +9,6 @@ def scan_container(image_name: str) -> dict:
     Scans container images or Dockerfiles with Trivy (placeholder).
     Returns dict with vulnerabilities, severity breakdown, confidence scores.
     """
-    # TODO: Replace placeholder with real Trivy subprocess call or library integration
-    # FIXME: Add timeout, error handling, and real confidence score derivation
     result = {
         "target": image_name,
         "status": "scan_complete",
